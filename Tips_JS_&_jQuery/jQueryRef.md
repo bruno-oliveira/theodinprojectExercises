@@ -106,4 +106,4 @@ However, a much better and fine-grained usage is when we want to select elements
 
 Imagine that we would extend the usage of selectors in a way that we would select multiple elements at once, for example, elements styled with different classes.
 
-This is exactly the purpose that compound selectors serve, as they allow to select multiple elements that belong to different classes, for an example, check [here]().
+This is exactly the purpose that compound selectors serve, as they allow to select multiple elements that belong to different classes, for an example, check [here](https://cdn.rawgit.com/bruno-oliveira/theodinprojectExercises/master/Tips_JS_%26_jQuery/compound_selector/index.html).
