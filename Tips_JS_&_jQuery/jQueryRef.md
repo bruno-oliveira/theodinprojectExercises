@@ -27,3 +27,6 @@ The key points to remark here are:
 
 * It is necessary to link the js file inside our HTML using ``` <script type="text/javascript" src="script.js"></script>```
 * We can use the jQuery 'object' $() to target specific elements, css classes, and more as we will see later. In this example, we target the div whose id is "green" and we apply the jQuery action fadeOut() to it. There are much more actions and they can all be explored at jQuery's official website API reference: http://api.jquery.com/ 
+
+#### intermediate_usages folder contents
+
