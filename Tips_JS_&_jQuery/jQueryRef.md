@@ -21,7 +21,7 @@ This piece of code, states that _some actions_ will be executed **after** the HT
 
 As seen above, the ready action applied to our HTML document, can receive a function as input and perform some actions on our DOM inside that specific function. See the folder basic_manipulations for an example on how to both link jQuery with our HTML document and perform a basic action on an HTML element.
 
-#### basic_manipulations folder contents
+#### basic_manipulations folder contents (example [here](https://cdn.rawgit.com/bruno-oliveira/theodinprojectExercises/master/Tips_JS_%26_jQuery/basic_manipulations/index.html))
 
 The key points to remark here are:
 
