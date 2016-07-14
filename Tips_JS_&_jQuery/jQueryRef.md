@@ -90,3 +90,18 @@ $(document).ready(function() {
 });
 ```
 The code for this particular example is located in the folder simple_selector and you can run it [here](https://cdn.rawgit.com/bruno-oliveira/theodinprojectExercises/master/Tips_JS_%26_jQuery/simple_selector/index.html).
+
+#### Quick overview regarding Simple Selectors. Compound Selectors explained and an example.
+
+The main idea of simple selectors is that we can use the jQuery object $(), usually coupled with some function to select specific HTML elements:
+
+'div', 'p', 'li', etc, all select the corresponding HTML elements.
+
+However, a much better and fine-grained usage is when we want to select elements with a specific ID or class:
+
+* $('#blue')... -> Allows manipulation of all DOM objects whose id="blue"
+* $('.test')... -> Allows manipulation of all DOM objects whose class="test"
+
+#### What are compound selectors?
+
+Imagine that we would extend the usage of selectors in a way that 
