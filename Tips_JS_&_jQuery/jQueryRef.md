@@ -107,3 +107,9 @@ However, a much better and fine-grained usage is when we want to select elements
 Imagine that we would extend the usage of selectors in a way that we would select multiple elements at once, for example, elements styled with different classes.
 
 This is exactly the purpose that compound selectors serve, as they allow to select multiple elements that belong to different classes, for an example, check [here](https://cdn.rawgit.com/bruno-oliveira/theodinprojectExercises/master/Tips_JS_%26_jQuery/compound_selector/index.html).
+
+### Using _this_ and its role
+
+As useful as selectors, both simple and compound, are, you might have realized that there's a potential problem with them: they are from what we have seen, very limited, as they allow either for the indescriminated selection of ALL elements of a same type (say, select ALL div or select ALL p) or they allow for selections based on attributes like the ID or the class of a particular element. This is limiting when we want to reference a specific element or affect a specific element from a given group with a particular action. For that purpose, we can use the **this** object.
+
+...
