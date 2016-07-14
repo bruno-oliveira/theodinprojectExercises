@@ -34,3 +34,9 @@ This folder serves as a follow-up on the http://www.codeacademy.com/ track, and 
 
 1. Higher-order functions: these are functions that can receive **other functions** as arguments and execute them after some specific action or condition is met. An example of such a function so far is the $(document).ready() function that receives another function as argument.
 2. Built-in functions (or actions), which are functions that are available to us trough the jQuery API, examples are fadeOut(), hide(), mouseover(), etc. These functions can't generally receive others as arguments and are called first order functions.
+
+### Types of jQuery Selectors, their relationship with CSS. The importance of naming variables that hold selectors correctly.
+
+In the previous examples, we have seen the basic relationship between CSS, jQuery and HTML, by including our js file inside our HTML (with the jQuery library being served by Google's CDN) and by running the examples, it was possible to see that indeed our jQuery worked as expected affecting the elements we intended. Let's take a more in-depth look as to why and how we affected those elements and show a more wider range of actions that we can accomplish with these selectors. **_Anything we can affect via CSS, we can affect via jQuery._**
+
+#### 
