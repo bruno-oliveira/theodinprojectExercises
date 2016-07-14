@@ -80,3 +80,13 @@ The HTML would look like:
 	</body>
 </html>
 ```
+Our goal now, is to show how we can use the jQuery selectors (that shall map to the corresponding CSS selectors) to manipulate a specific div element (in this example we want to specifically manipulate the div with id="blue") and we can achieve it with:
+
+```javascript
+$(document).ready(function() {
+    $('button').click(function() {
+        $('#blue').fadeOut('slow');
+    });
+});
+```
+The code for this particular example is located in the folder simple_selector and you can run it [here].
