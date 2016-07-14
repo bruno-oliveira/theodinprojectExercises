@@ -21,7 +21,9 @@ This piece of code, states that _some actions_ will be executed **after** the HT
 
 As seen above, the ready action applied to our HTML document, can receive a function as input and perform some actions on our DOM inside that specific function. See the folder basic_manipulations for an example on how to both link jQuery with our HTML document and perform a basic action on an HTML element.
 
+#### basic_manipulations folder contents
+
 The key points to remark here are:
 
 * It is necessary to link the js file inside our HTML using ``` <script type="text/javascript" src="script.js"></script>```
-* We can use the jQuery 'object' $() to target specific elements, css classes, and more as we will see later.
+* We can use the jQuery 'object' $() to target specific elements, css classes, and more as we will see later. In this example, we target the div whose id is "green" and we apply the jQuery action fadeOut() to it. There are much more actions and they can all be explored at jQuery's official website API reference: http://api.jquery.com/ 
