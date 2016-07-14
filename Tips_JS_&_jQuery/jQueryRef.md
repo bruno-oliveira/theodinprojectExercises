@@ -89,4 +89,4 @@ $(document).ready(function() {
     });
 });
 ```
-The code for this particular example is located in the folder simple_selector and you can run it [here].
+The code for this particular example is located in the folder simple_selector and you can run it [here](https://cdn.rawgit.com/bruno-oliveira/theodinprojectExercises/master/Tips_JS_%26_jQuery/simple_selector/index.html).
