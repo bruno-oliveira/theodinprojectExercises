@@ -104,4 +104,6 @@ However, a much better and fine-grained usage is when we want to select elements
 
 #### What are compound selectors?
 
-Imagine that we would extend the usage of selectors in a way that 
+Imagine that we would extend the usage of selectors in a way that we would select multiple elements at once, for example, elements styled with different classes.
+
+This is exactly the purpose that compound selectors serve, as they allow to select multiple elements that belong to different classes, for an example, check [here]
