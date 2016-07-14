@@ -30,4 +30,7 @@ The key points to remark here are:
 
 #### intermediate_usages folder contents
 
-...
+This folder serves as a follow-up on the http://www.codeacademy.com/ track, and it is useful to show that jQuery's power is all about functions, and they can come in several types. We can have, as of now:
+
+1. Higher-order functions: these are functions that can receive **other functions** as arguments and execute them after some specific action or condition is met. An example of such a function so far is the $(document).ready() function that receives another function as argument.
+2. Built-in functions (or actions), which are functions that are available to us trough the jQuery API, examples are fadeOut(), hide(), mouseover(), etc. These functions can't generally receive others as arguments and are called first order functions.
