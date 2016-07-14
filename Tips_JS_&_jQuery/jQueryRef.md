@@ -39,4 +39,44 @@ This folder serves as a follow-up on the http://www.codeacademy.com/ track, and 
 
 In the previous examples, we have seen the basic relationship between CSS, jQuery and HTML, by including our js file inside our HTML (with the jQuery library being served by Google's CDN) and by running the examples, it was possible to see that indeed our jQuery worked as expected affecting the elements we intended. Let's take a more in-depth look as to why and how we affected those elements and show a more wider range of actions that we can accomplish with these selectors. **_Anything we can affect via CSS, we can affect via jQuery._**
 
-#### 
+#### It's all about CSS. How IDs, classes and elements can be manipulated by jQuery.
+
+It is known that we can apply some CSS style to our HTML elements via classes, IDs or simply groups of elements.
+
+Examples of these include:
+
+```css
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: #F38630;
+    border-radius: 5px;
+}
+
+#blue {
+    background-color: #A7DBD8;
+}
+```
+
+This applies a certain style to all div elements that have no specific ID and changes the background color of the div element whose id is "blue".
+
+The HTML would look like:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Vanishing Act</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <script type='text/javascript' src='script.js'></script>
+	</head>
+	<body>
+        <div id="blue"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <br/><button>Click Me!</button>
+	</body>
+</html>
+```
