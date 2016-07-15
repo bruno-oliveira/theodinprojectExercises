@@ -144,7 +144,7 @@ As this is a jQuery tutorial and not a UX/UI design tutorial, the majority of th
         </div>
         <p class="slide"><div class="pull-me">Slide Up/Down</div></p>
     </body>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </html>
 ```
