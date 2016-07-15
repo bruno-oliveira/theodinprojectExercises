@@ -114,7 +114,7 @@ As useful as selectors, both simple and compound, are, you might have realized t
 
 The this keyword refers to the jQuery object you're currently doing something with. Its complete rules are a little tricky, but the important thing to understand is if you use an event handler on an element, you can call the actual event that occurs (for eg, fadeOut()) on $(this), and the event will only affect the element you're currently doing something with (for example, clicking on or mousing over).
 
-Inside the folder using_this, you can see a working example, which you can run [here](https://cdn.rawgit.com/bruno-oliveira/theodinprojectExercises/tree/master/Tips_JS_%26_jQuery/using_this/index.html), that illustrates the desired functionality.
+Inside the folder using_this, you can see a working example, which you can run [here](https://cdn.rawgit.com/bruno-oliveira/theodinprojectExercises/master/Tips_JS_%26_jQuery/using_this/index.html), that illustrates the desired functionality.
 
 #### Short explanation of the example
 
