@@ -120,4 +120,31 @@ Inside the folder using_this, you can see a working example, which you can run [
 
 The most important functionality of the example is the usage of the **this** jQuery object inside the script.js file, which allows, as the example shows, for the individual manipulation of objects, i.e., objects that are affected by the desired jQuery actions individually, without being dependent of belonging to a specific css class or having a specific id, which allows for much better interactivity as well as for a fine-grained application of actions to DOM elements, which is usually desired.
 
+### A full example: animating a slider with jQuery
 
+The main goal of jQuery is to allow and add, interactivity to our web applications trough easier DOM manipulation. As an illustrating example, we shall animate a slider using jQuery to put all of these concepts to use, as well as to see the capabilities of this js library.
+
+#### Part 1: The necessary (static) HTML and CSS design
+
+As this is a jQuery tutorial and not a UX/UI design tutorial, the majority of the static code will be given and the main focus will be on using jQuery to anime the elements, as such, the code below can be assumed to be given (a bit like editing an existing codebase):
+
+##### HTML code:
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slide Panel</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+    </head>
+    <body>
+        <div class="panel">
+        <br />
+        <br />
+        <p>Now you see me!</p>
+        </div>
+        <p class="slide"><div class="pull-me">Slide Up/Down</div></p>
+    </body>
+    
+    <script type="text/javascript" src="script.js"></script>
+</html>
+```
