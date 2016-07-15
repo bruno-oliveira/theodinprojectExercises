@@ -198,4 +198,8 @@ body {
 }
 ```
 
-We can see immediately, that we have defined several classes that are affecting our HTML elements, and it will be by using those classes that we will be able to apply styling and the desired effect to create a slider. Remember that it's easy to manipulated elements that belong to a specific class or have a specific id, using the jQuery selectors.
+We can see immediately, that we have defined several classes that are affecting our HTML elements, and it will be by using those classes that we will be able to apply styling and the desired effect to create a slider. Remember that it's easy to manipulate elements that belong to a specific class or have a specific id, using the jQuery selectors.
+
+#### Part 2: Understanding what we need to do and where to apply jQuery
+
+...
