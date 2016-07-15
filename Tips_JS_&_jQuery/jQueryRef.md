@@ -113,3 +113,9 @@ This is exactly the purpose that compound selectors serve, as they allow to sele
 As useful as selectors, both simple and compound, are, you might have realized that there's a potential problem with them: they are from what we have seen, very limited, as they allow either for the indescriminated selection of ALL elements of a same type (say, select ALL div or select ALL p) or they allow for selections based on attributes like the ID or the class of a particular element. This is limiting when we want to reference a specific element or affect a specific element from a given group with a particular action. For that purpose, we can use the **this** object.
 
 The this keyword refers to the jQuery object you're currently doing something with. Its complete rules are a little tricky, but the important thing to understand is if you use an event handler on an element, you can call the actual event that occurs (for eg, fadeOut()) on $(this), and the event will only affect the element you're currently doing something with (for example, clicking on or mousing over).
+
+Inside the folder using_this, you can see a working example, which you can run [here], that illustrates the desired functionality.
+
+#### Short explanation of the example
+
+...
