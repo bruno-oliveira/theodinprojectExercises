@@ -118,4 +118,6 @@ Inside the folder using_this, you can see a working example, which you can run [
 
 #### Short explanation of the example
 
-...
+The most important functionality of the example is the usage of the **this** jQuery object inside the script.js file, which allows, as the example shows, for the individual manipulation of objects, i.e., objects that are affected by the desired jQuery actions individually, without being dependent of belonging to a specific css class or having a specific id, which allows for much better interactivity as well as for a fine-grained application of actions to DOM elements, which is usually desired.
+
+
