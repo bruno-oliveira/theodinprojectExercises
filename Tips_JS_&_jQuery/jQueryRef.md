@@ -209,5 +209,6 @@ Let's firstly review the process on applying jQuery:
 | Code written                                 | Effect                                                    |
 |----------------------------------------------|------------------------------------------------------------|
 |  $(document).ready(**function(){}**)         | States that there jQuery will be used to manipulate our html	|
-|  function(){ $('.pull-me').click();          | Div with class 'pull-me' will react to the click() event        |
-|  $('.pull-me').click(function(){});          | When the div is clicked, some function will be executed              |
+|  **function(){ $('.pull-me').click()};**          | Div with class 'pull-me' will react to the click() event        |
+|  $('.pull-me').click(_function(){}_);          | When the div is clicked, some function will be executed              |
+|  .click(_function(){ $('.panel').slideToggle('slow')}_) | Triggers the slide action to display our panel 	|
