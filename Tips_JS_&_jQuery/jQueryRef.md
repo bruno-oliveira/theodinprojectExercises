@@ -208,6 +208,6 @@ Let's firstly review the process on applying jQuery:
 
 | Code written                                 | Effect                                 |
 |----------------------------------------------|----------------------------------------|
-|  $(document).ready(function(){})             |					|
+|  $(document).ready(function(){})             | States that there jQuery will be used to manipulate our html			|
 |               			       |                                        |
 |                                              |                                        |
