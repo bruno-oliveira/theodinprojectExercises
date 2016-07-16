@@ -202,4 +202,12 @@ We can see immediately, that we have defined several classes that are affecting 
 
 #### Part 2: Understanding what we need to do and where to apply jQuery
 
-...
+Now that we have the static parts of the code, as well as the styling, done, we can now proceed to what matters, the application of jQuery to animate the our slider.
+
+Let's firstly review the process on applying jQuery:
+
+|   |   |
+|---|---|
+|   |   |
+|   |   |
+|   |   |
