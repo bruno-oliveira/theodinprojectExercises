@@ -206,8 +206,8 @@ Now that we have the static parts of the code, as well as the styling, done, we 
 
 Let's firstly review the process on applying jQuery:
 
-|   |   |
-|---|---|
-|   |   |
-|   |   |
-|   |   |
+| Code written                                 | Effect                                 |
+|----------------------------------------------|----------------------------------------|
+|  $(document).ready(function(){})             |					|
+|               			       |                                        |
+|                                              |                                        |
