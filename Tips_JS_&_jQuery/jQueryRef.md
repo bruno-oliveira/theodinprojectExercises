@@ -212,3 +212,9 @@ Let's firstly review the process on applying jQuery:
 |  **function(){ $('.pull-me').click()};**          | Div with class 'pull-me' will react to the click() event        |
 |  $('.pull-me').click(_function(){}_);          | When the div is clicked, some function will be executed              |
 |  .click(_function(){ $('.panel').slideToggle('slow')}_) | Triggers the slide action to display our panel 	|
+
+As the special formatting denotes, the most important thing in the application of jQuery to anime a specific HTML element is **function composition**. Function composition is what binds actions together, that when coupled with some of jQuery's built-in actions allows for an element to be animated. 
+
+In the case of our example, the aforementioned function composition coupled with built-in jQuery actions, works as follows:
+
+When our document is ready, a function will be executed. That function will "tell" the div with class 'pull-me' to react to the click built-in action and, following that, the click built-in function, when executed will call yet another function, i.e., the built-in slideToggle action, that will animate our element.
