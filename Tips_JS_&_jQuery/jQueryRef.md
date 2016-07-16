@@ -206,8 +206,8 @@ Now that we have the static parts of the code, as well as the styling, done, we 
 
 Let's firstly review the process on applying jQuery:
 
-| Code written                                 | Effect                                 |
-|----------------------------------------------|----------------------------------------|
-|  $(document).ready(function(){})             | States that there jQuery will be used to manipulate our html			|
-|               			       |                                        |
-|                                              |                                        |
+| Code written                                 | Effect                                                    |
+|----------------------------------------------|------------------------------------------------------------|
+|  $(document).ready(**function(){}**)         | States that there jQuery will be used to manipulate our html	|
+|  function(){ $('.pull-me').click();          | Div with class 'pull-me' will react to the click() event        |
+|  $('.pull-me').click(function(){});          | When the div is clicked, some function will be executed              |
